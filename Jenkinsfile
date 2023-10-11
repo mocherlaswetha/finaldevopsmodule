@@ -4,7 +4,7 @@ pipeline{
     stage("Deploy"){
       steps{
         echo"Test sucessfull"
-        bat "mvn compile"
+        bat "MVN compile"
       }
     }
     stage("Build"){
